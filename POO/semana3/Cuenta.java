@@ -25,7 +25,10 @@ public class Cuenta {
   public void recargarCuenta(double cantidad){
     saldo += cantidad;
   }
-  
+  //crear metodo retirar
+  public void retirarCuenta(double retiro){
+    saldo -= retiro;
+  }
 }
   
     

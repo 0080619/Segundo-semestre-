@@ -10,6 +10,12 @@ public class EjecutarBanco{
     objCuenta1.recargarCuenta(10000.0);
     
     System.out.println(objCuenta1.toString());
+
+    objCuenta1.retirarCuenta(5000.0);
+
+    System.out.println(objCuenta1.toString());
+      
     
   }
+
 }
