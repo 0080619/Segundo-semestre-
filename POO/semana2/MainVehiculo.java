@@ -1,4 +1,22 @@
 public class MainVehiculo {
+    private static class Vehiculo {
+        private String modelo;
+        private String marca;
+        private int año;
+        private String categoria;
+        private String color;
+        private double peso;
+
+        void mostrarInformacion() {
+            System.out.println("Modelo: " + modelo);
+            System.out.println("Marca: " + marca);
+            System.out.println("Año: " + año);
+            System.out.println("Categoría: " + categoria);
+            System.out.println("Color: " + color);
+            System.out.println("Peso: " + peso);
+        }
+    }
+
     public static void main(String[] args) {
 
         // Creación de los objetos de la clase Vehiculo
