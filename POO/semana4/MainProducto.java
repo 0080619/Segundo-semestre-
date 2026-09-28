@@ -17,5 +17,8 @@ public class MainProducto {
 
         System.out.println("Valor total Mouse: " + objProducto1.calcularValorTotal());
         System.out.println("Valor total Teclado: " + objProducto2.calcularValorTotal());
+        System.out.println("Inventario total Mouse: " + objProducto1.inventarioTotal());
+        System.out.println("Inventario total Teclado: " + objProducto2.inventarioTotal());
     }
+
 }

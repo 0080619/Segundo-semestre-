@@ -34,6 +34,9 @@ public class Producto {
         }
     }
     public double calcularValorTotal() {
-        return precio * cantidad;
+        return (precio * cantidad);
+    }
+    public int inventarioTotal() {
+        return (cantidad);
     }
 }
