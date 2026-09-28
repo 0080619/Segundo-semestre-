@@ -8,8 +8,8 @@ public class MainVehiculo {
         System.out.println(objVehiculo2.toString());
 
         // venta
-        objVehiculo1.vender(); // venta confirmada
-        objVehiculo1.vender(); // venta denegada, ya se vendio
+        objVehiculo1.vender(); 
+        objVehiculo1.vender(); 
 
         System.out.println(objVehiculo1.toString());
         System.out.println(objVehiculo2.toString());
