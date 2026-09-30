@@ -46,4 +46,20 @@ public class Libro {
     public void setDisponibilidad(boolean disponibilidad) {
         this.disponibilidad = disponibilidad;
     }
-}
+    // metodo prestar
+    public void prestar() { 
+        disponibilidad = false;   
+    }
+    public void devolver() { 
+        disponibilidad = true;   
+        
+    }
+    public boolean estaDisponible() { 
+        return disponibilidad;   
+    }
+    public String toString() { 
+        return "Libro [isbn=" + isbn + ", titulo=" + titulo + ", autor=" + autor + ", anioPublicacion="
+                + anioPublicacion + ", disponibilidad=" + disponibilidad + "]";   
+    }
+
+}   
