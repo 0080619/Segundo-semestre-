@@ -64,6 +64,9 @@ public String getProducto() {
  public double calacularInventario() {
     return precio * stock;
  }    
+ public String toString() { 
+        return "Ventas [producto=" + producto + ", nombre=" + nombre + ", codigo=" + codigo + ", precio=" + precio + ", stock=" + stock + "]";   
+    }
  
 }   
 

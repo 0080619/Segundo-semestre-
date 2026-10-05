@@ -32,6 +32,10 @@ public class MainVentas {
         // reabastecer 5 unidades de venta3
         venta3.setStock(venta3.getStock() + 5);
         System.out.println("Stock actual de venta3: " + venta3.getStock());
+
+        // calcular valor inventario de venta1
+        double v = venta1.calacularInventario();
+        System.out.println("Valor inventario de venta1: " + v);
     }
 }
 
