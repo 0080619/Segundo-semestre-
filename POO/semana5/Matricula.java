@@ -25,7 +25,7 @@ public class Matricula {
     }
 
     public void setNombre(String nombre) {
-        if (nombre == null || nombre.trim().isEmpty()) {
+        if (nombre==("")) {
             System.out.println("El nombre no puede estar vacio.");
         } else {
             this.nombre = nombre;
@@ -37,7 +37,7 @@ public class Matricula {
     }
 
     public void setDocumento(String documento) {
-        if (documento == null || documento.trim().isEmpty()) {
+        if (documento==("")) {
             System.out.println("El documento no puede estar vacio.");
         } else {
             this.documento = documento;
@@ -61,7 +61,7 @@ public class Matricula {
     }
 
     public void setCorreo(String correo) {
-        if (correo == null || correo.trim().isEmpty()) {
+        if (correo==("")) {
             System.out.println("El correo no puede estar vacio.");
         } else {
             this.correo = correo;
@@ -73,7 +73,7 @@ public class Matricula {
     }
 
     public void setPrograma(String programa) {
-        if (programa == null || programa.trim().isEmpty()) {
+        if (programa==("")) {
             System.out.println("El programa no puede estar vacio.");
         } else {
             this.programa = programa;

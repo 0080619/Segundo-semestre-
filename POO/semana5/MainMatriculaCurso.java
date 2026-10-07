@@ -30,14 +30,13 @@ public class MainMatriculaCurso {
         System.out.println("\n===== MOSTRAR INFORMACION DE UN CURSO =====");
         curso1.mostrarInformacion();
  
-        // probar los metodos de comportamiento (casos validos)
+        // metodos de comportamiento (casos validos)
         System.out.println(mat1.getNombre() + " es mayor de edad: " + mat1.esMayorDeEdad(false)); 
         System.out.println(mat2.getNombre() + " es mayor de edad: " + mat2.esMayorDeEdad(false)); 
         mat1.avanzarSemestre();
         System.out.println("Hay cupo en " + curso1.getNombre() + " con 10 matriculados: " + curso1.tieneCupo(10)); 
         System.out.println("Hay cupo en " + curso1.getNombre() + " con 30 matriculados: " + curso1.tieneCupo(30)); 
         
-        // modificar informacion con setters (casos validos)
         
         mat5.setPrograma("Administracion de Empresas");
         mat5.setEdad(19);

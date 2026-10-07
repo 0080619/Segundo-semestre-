@@ -18,22 +18,22 @@ public class MainVentas {
         // mostrar solo nombre de producto de venta2
         System.out.println(venta2.getNombre());
 
-        // cambiar el codigo del producto de venta5
+        
         venta5.setCodigo("WER456");
         System.out.println("Nuevo codigo del producto de venta5: " + venta5.getCodigo());
 
-        // verificar stock de venta3
+       
         System.out.println(venta3.getStock());
 
-        // vender 3 unidades de venta3
+      
         venta3.vender(3);
         System.out.println("Stock restante de venta3: " + venta3.getStock());
 
-        // reabastecer 5 unidades de venta3
+        
         venta3.setStock(venta3.getStock() + 5);
         System.out.println("Stock actual de venta3: " + venta3.getStock());
 
-        // calcular valor inventario de venta1
+       
         double v = venta1.calacularInventario();
         System.out.println("Valor inventario de venta1: " + v);
     }
