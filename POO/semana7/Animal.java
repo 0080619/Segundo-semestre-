@@ -7,14 +7,13 @@ public class Animal {
         this.nombre = nombre;
         this.familia = familia;
     }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public String getFamilia() {
-        return familia;
-    }
     
     public void comer(){ }
+    public void ladrar(){ } 
+    public void maullar(){ }
+
+    @Override
+    public String toString() {
+        return "Animal [nombre=" + nombre + ", familia=" + familia + "]";
+    }
 }
